@@ -1,6 +1,11 @@
 html {
   box-sizing: border-box;
 }
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 body {
   background: #e96443;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
@@ -9,8 +14,8 @@ body {
 }
 ul {
   list-style: none;
-  padding: none;
-  margin: none;
+  padding: 0;
+  margin: 0;
 }
 span.resultado {
   position: relative;
